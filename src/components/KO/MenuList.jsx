@@ -74,7 +74,7 @@ function MenuList({
       {/* 선택된 카테고리의 메뉴 목록 */}
       {filteredData.map((item) => (
         <MenuBox key={item.id} onClick={() => toCart(item.id)}>
-          <Img src={`/src/images/${item.id}.jpeg`} alt={item.name}></Img>
+          <Img src={`/public/images/${item.id}.jpeg`} alt={item.name}></Img>
           <ItemInfo>{item.name}</ItemInfo>
           <ItemInfo>{item.price}원</ItemInfo>
         </MenuBox>
