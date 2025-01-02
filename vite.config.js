@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: './', // GitHub Pages에 맞춰 설정
   build: {
-    outDir: 'dist' // 빌드 결과물을 dist 폴더에 저장
+    outDir: 'docs' // 빌드 결과물을 docs 폴더에 저장
   }
 });
